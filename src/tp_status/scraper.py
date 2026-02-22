@@ -152,6 +152,23 @@ def save_cache(packages: list[PackageInfo]):
     (CACHE_DIR / "packages.json").write_text(json.dumps(data, indent=2))
 
 
+def load_settings() -> dict:
+    """Load user settings."""
+    settings_file = CACHE_DIR / "settings.json"
+    if settings_file.exists():
+        try:
+            return json.loads(settings_file.read_text())
+        except Exception:
+            pass
+    return {}
+
+
+def save_settings(settings: dict):
+    """Save user settings."""
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    (CACHE_DIR / "settings.json").write_text(json.dumps(settings, indent=2))
+
+
 def load_cache() -> list[PackageInfo] | None:
     """Load cached package data."""
     cache_file = CACHE_DIR / "packages.json"

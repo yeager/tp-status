@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 11:14+0100\n"
+"POT-Creation-Date: 2026-02-22 11:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,145 +17,247 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/tp_status/app.py:85 src/tp_status/app.py:422 src/tp_status/app.py:459
-msgid "Translation Project Status"
+#: src/tp_status/app.py:107
+msgid "Translation Project — Domain Status"
 msgstr ""
 
-#: src/tp_status/app.py:104
-msgid "Refresh data"
+#: src/tp_status/app.py:113
+msgid "All Languages"
 msgstr ""
 
-#: src/tp_status/app.py:110 src/tp_status/app.py:434
+#: src/tp_status/app.py:117 src/tp_status/app.py:571 src/tp_status/app.py:666
+msgid "Language"
+msgstr ""
+
+#: src/tp_status/app.py:124
+msgid "Refresh data from TP"
+msgstr ""
+
+#: src/tp_status/app.py:129
+msgid "Open translationproject.org"
+msgstr ""
+
+#: src/tp_status/app.py:134 src/tp_status/app.py:659
+msgid "Preferences"
+msgstr ""
+
+#: src/tp_status/app.py:135 src/tp_status/app.py:726 src/tp_status/app.py:733
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/tp_status/app.py:111
+#: src/tp_status/app.py:136
 msgid "About"
 msgstr ""
 
-#: src/tp_status/app.py:132
-msgid "Search packages…"
-msgstr ""
-
-#: src/tp_status/app.py:137
-msgid "All"
-msgstr ""
-
-#: src/tp_status/app.py:137
-msgid "Translated"
-msgstr ""
-
-#: src/tp_status/app.py:137
-msgid "Untranslated"
-msgstr ""
-
-#: src/tp_status/app.py:137
-msgid "Outdated"
-msgstr ""
-
-#: src/tp_status/app.py:138
-msgid "Filter"
-msgstr ""
-
-#: src/tp_status/app.py:143
-msgid "Name"
-msgstr ""
-
-#: src/tp_status/app.py:143
-msgid "Completion %"
-msgstr ""
-
-#: src/tp_status/app.py:143
-msgid "Strings"
-msgstr ""
-
-#: src/tp_status/app.py:144
-msgid "Sort"
-msgstr ""
-
-#: src/tp_status/app.py:152
-msgid "Packages"
+#: src/tp_status/app.py:152 src/tp_status/app.py:218
+msgid "Domains"
 msgstr ""
 
 #: src/tp_status/app.py:153
-msgid "Fully Translated"
+msgid "Leaderboard"
 msgstr ""
 
-#: src/tp_status/app.py:154
-msgid "Partially Translated"
-msgstr ""
-
-#: src/tp_status/app.py:155
-msgid "Not Translated"
-msgstr ""
-
-#: src/tp_status/app.py:192
+#: src/tp_status/app.py:171
 msgid "Loaded from cache. Press refresh to update."
 msgstr ""
 
-#: src/tp_status/app.py:257
+#: src/tp_status/app.py:183
+msgid "Search domains…"
+msgstr ""
+
+#: src/tp_status/app.py:188
+msgid "All"
+msgstr ""
+
+#: src/tp_status/app.py:188 src/tp_status/app.py:219
+msgid "Fully Translated"
+msgstr ""
+
+#: src/tp_status/app.py:188
+msgid "Partially Translated"
+msgstr ""
+
+#: src/tp_status/app.py:188 src/tp_status/app.py:221
+msgid "Not Translated"
+msgstr ""
+
+#: src/tp_status/app.py:188
+msgid "Outdated"
+msgstr ""
+
+#: src/tp_status/app.py:190
+msgid "Filter"
+msgstr ""
+
+#: src/tp_status/app.py:198
+msgid "Name"
+msgstr ""
+
+#: src/tp_status/app.py:198
+msgid "Completion %"
+msgstr ""
+
+#: src/tp_status/app.py:198
+msgid "Total Strings"
+msgstr ""
+
+#: src/tp_status/app.py:198
+msgid "Translated Strings"
+msgstr ""
+
+#: src/tp_status/app.py:198
+msgid "Translator"
+msgstr ""
+
+#: src/tp_status/app.py:200
+msgid "Sort by"
+msgstr ""
+
+#: src/tp_status/app.py:209
+msgid "Reverse sort order"
+msgstr ""
+
+#: src/tp_status/app.py:220 src/tp_status/app.py:573
+msgid "Partial"
+msgstr ""
+
+#: src/tp_status/app.py:222 src/tp_status/app.py:574
+msgid "Average"
+msgstr ""
+
+#: src/tp_status/app.py:252
+msgid "Language Leaderboard"
+msgstr ""
+
+#: src/tp_status/app.py:256
+msgid "Ranked by number of fully translated domains"
+msgstr ""
+
+#: src/tp_status/app.py:341
 msgid "Loading…"
 msgstr ""
 
-#: src/tp_status/app.py:258
+#: src/tp_status/app.py:342
 msgid "Fetching data from translationproject.org…"
 msgstr ""
 
-#: src/tp_status/app.py:280
+#: src/tp_status/app.py:364
 #, python-format
-msgid "Updated at %s — %d packages"
+msgid "Updated at %s — %d domains"
 msgstr ""
 
-#: src/tp_status/app.py:286
+#: src/tp_status/app.py:371
 #, python-format
 msgid "Error: %s"
 msgstr ""
 
-#: src/tp_status/app.py:367
+#: src/tp_status/app.py:384
+msgid "languages"
+msgstr ""
+
+#: src/tp_status/app.py:501
+msgid "strings"
+msgstr ""
+
+#: src/tp_status/app.py:505
 msgid "translated"
 msgstr ""
 
-#: src/tp_status/app.py:406 src/tp_status/app.py:439
+#: src/tp_status/app.py:516
+msgid "langs"
+msgstr ""
+
+#: src/tp_status/app.py:532
+msgid "Open on TP"
+msgstr ""
+
+#: src/tp_status/app.py:572
+msgid "100%"
+msgstr ""
+
+#: src/tp_status/app.py:644 src/tp_status/app.py:732
 msgid "Export CSV"
 msgstr ""
 
-#: src/tp_status/app.py:416
+#: src/tp_status/app.py:654
 #, python-format
 msgid "Exported to %s"
 msgstr ""
 
-#: src/tp_status/app.py:429
-msgid "View translation statistics from translationproject.org"
+#: src/tp_status/app.py:662
+msgid "General"
 msgstr ""
 
-#: src/tp_status/app.py:437
+#: src/tp_status/app.py:665
+msgid "Default Language"
+msgstr ""
+
+#: src/tp_status/app.py:666
+msgid "Default language to show on startup"
+msgstr ""
+
+#: src/tp_status/app.py:678
+msgid "Links"
+msgstr ""
+
+#: src/tp_status/app.py:679
+msgid "Translation Project"
+msgstr ""
+
+#: src/tp_status/app.py:684
+msgid "Your Team Page"
+msgstr ""
+
+#: src/tp_status/app.py:691
+msgid "Translation Matrix"
+msgstr ""
+
+#: src/tp_status/app.py:691
+msgid "Overview of all languages × domains"
+msgstr ""
+
+#: src/tp_status/app.py:712 src/tp_status/app.py:754
+msgid "Translation Project Status"
+msgstr ""
+
+#: src/tp_status/app.py:719
+msgid ""
+"View translation statistics for domains on translationproject.org.\n"
+"\n"
+"TP calls them 'domains' — each domain is a software package with "
+"translatable strings."
+msgstr ""
+
+#: src/tp_status/app.py:730
 msgid "Quit"
 msgstr ""
 
-#: src/tp_status/app.py:438
+#: src/tp_status/app.py:731
 msgid "Search"
 msgstr ""
 
-#: src/tp_status/app.py:440
+#: src/tp_status/app.py:734
 msgid "Refresh"
 msgstr ""
 
-#: src/tp_status/app.py:456
+#: src/tp_status/app.py:751
 msgid "Welcome"
 msgstr ""
 
-#: src/tp_status/app.py:460
+#: src/tp_status/app.py:755
 msgid ""
-"View and track translation progress for GNU and free software packages on "
+"View and track translation progress for GNU and free software domains on "
 "translationproject.org.\n"
 "\n"
-"• Browse 148+ packages with translation stats\n"
-"• Filter by language, completion status\n"
-"• Color-coded completion percentages\n"
+"• Browse 148+ domains with translation stats\n"
+"• Filter by language and completion status\n"
+"• Language leaderboard — see which teams lead\n"
+"• Sort by name, completion, strings, translator\n"
+"• Reverse sort order with one click\n"
 "• Export data to CSV\n"
-"• Click any package to open on TP website"
+"• Click any domain to open on TP website"
 msgstr ""
 
-#: src/tp_status/app.py:467
+#: src/tp_status/app.py:765
 msgid "Get Started"
 msgstr ""
