@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-22 11:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/tp_status/app.py:85 src/tp_status/app.py:422 src/tp_status/app.py:459
+msgid "Translation Project Status"
+msgstr ""
+
+#: src/tp_status/app.py:104
+msgid "Refresh data"
+msgstr ""
+
+#: src/tp_status/app.py:110 src/tp_status/app.py:434
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/tp_status/app.py:111
+msgid "About"
+msgstr ""
+
+#: src/tp_status/app.py:132
+msgid "Search packages…"
+msgstr ""
+
+#: src/tp_status/app.py:137
+msgid "All"
+msgstr ""
+
+#: src/tp_status/app.py:137
+msgid "Translated"
+msgstr ""
+
+#: src/tp_status/app.py:137
+msgid "Untranslated"
+msgstr ""
+
+#: src/tp_status/app.py:137
+msgid "Outdated"
+msgstr ""
+
+#: src/tp_status/app.py:138
+msgid "Filter"
+msgstr ""
+
+#: src/tp_status/app.py:143
+msgid "Name"
+msgstr ""
+
+#: src/tp_status/app.py:143
+msgid "Completion %"
+msgstr ""
+
+#: src/tp_status/app.py:143
+msgid "Strings"
+msgstr ""
+
+#: src/tp_status/app.py:144
+msgid "Sort"
+msgstr ""
+
+#: src/tp_status/app.py:152
+msgid "Packages"
+msgstr ""
+
+#: src/tp_status/app.py:153
+msgid "Fully Translated"
+msgstr ""
+
+#: src/tp_status/app.py:154
+msgid "Partially Translated"
+msgstr ""
+
+#: src/tp_status/app.py:155
+msgid "Not Translated"
+msgstr ""
+
+#: src/tp_status/app.py:192
+msgid "Loaded from cache. Press refresh to update."
+msgstr ""
+
+#: src/tp_status/app.py:257
+msgid "Loading…"
+msgstr ""
+
+#: src/tp_status/app.py:258
+msgid "Fetching data from translationproject.org…"
+msgstr ""
+
+#: src/tp_status/app.py:280
+#, python-format
+msgid "Updated at %s — %d packages"
+msgstr ""
+
+#: src/tp_status/app.py:286
+#, python-format
+msgid "Error: %s"
+msgstr ""
+
+#: src/tp_status/app.py:367
+msgid "translated"
+msgstr ""
+
+#: src/tp_status/app.py:406 src/tp_status/app.py:439
+msgid "Export CSV"
+msgstr ""
+
+#: src/tp_status/app.py:416
+#, python-format
+msgid "Exported to %s"
+msgstr ""
+
+#: src/tp_status/app.py:429
+msgid "View translation statistics from translationproject.org"
+msgstr ""
+
+#: src/tp_status/app.py:437
+msgid "Quit"
+msgstr ""
+
+#: src/tp_status/app.py:438
+msgid "Search"
+msgstr ""
+
+#: src/tp_status/app.py:440
+msgid "Refresh"
+msgstr ""
+
+#: src/tp_status/app.py:456
+msgid "Welcome"
+msgstr ""
+
+#: src/tp_status/app.py:460
+msgid ""
+"View and track translation progress for GNU and free software packages on "
+"translationproject.org.\n"
+"\n"
+"• Browse 148+ packages with translation stats\n"
+"• Filter by language, completion status\n"
+"• Color-coded completion percentages\n"
+"• Export data to CSV\n"
+"• Click any package to open on TP website"
+msgstr ""
+
+#: src/tp_status/app.py:467
+msgid "Get Started"
+msgstr ""

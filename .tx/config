@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[o:danielnylander:p:tp-status:r:tp-status-pot]
+file_filter = po/<lang>.po
+source_file = po/tp-status.pot
+source_lang = en
+type = PO

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Translation Project Status
+Comment=View translation statistics from translationproject.org
+Exec=tp-status
+Icon=se.danielnylander.tp-status
+Categories=Development;Translation;
+Keywords=translation;localization;l10n;gnu;
+Terminal=false
