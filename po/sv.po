@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-22 11:14+0100\n"
+"PO-Revision-Date: 2026-02-22 10:15+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305210/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/tp_status/app.py:85 src/tp_status/app.py:422 src/tp_status/app.py:459
+msgid "Translation Project Status"
+msgstr "Status för Translation Project"
+
+#: src/tp_status/app.py:104
+msgid "Refresh data"
+msgstr "Uppdatera data"
+
+#: src/tp_status/app.py:110 src/tp_status/app.py:434
+msgid "Keyboard Shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/tp_status/app.py:111
+msgid "About"
+msgstr "Om"
+
+#: src/tp_status/app.py:132
+msgid "Search packages…"
+msgstr "Sök efter paket..."
+
+#: src/tp_status/app.py:137
+msgid "All"
+msgstr "Alla"
+
+#: src/tp_status/app.py:137
+msgid "Translated"
+msgstr "Översatta"
+
+#: src/tp_status/app.py:137
+msgid "Untranslated"
+msgstr "Oöversatta"
+
+#: src/tp_status/app.py:137
+msgid "Outdated"
+msgstr "Utdaterade"
+
+#: src/tp_status/app.py:138
+msgid "Filter"
+msgstr "Filtrera"
+
+#: src/tp_status/app.py:143
+msgid "Name"
+msgstr "Namn"
+
+#: src/tp_status/app.py:143
+msgid "Completion %"
+msgstr "Färdigställande %"
+
+#: src/tp_status/app.py:143
+msgid "Strings"
+msgstr "Strängar"
+
+#: src/tp_status/app.py:144
+msgid "Sort"
+msgstr "Sortera"
+
+#: src/tp_status/app.py:152
+msgid "Packages"
+msgstr "Paket"
+
+#: src/tp_status/app.py:153
+msgid "Fully Translated"
+msgstr "Fullt översatta"
+
+#: src/tp_status/app.py:154
+msgid "Partially Translated"
+msgstr "Delvis översatta"
+
+#: src/tp_status/app.py:155
+msgid "Not Translated"
+msgstr "Inte översatta"
+
+#: src/tp_status/app.py:192
+msgid "Loaded from cache. Press refresh to update."
+msgstr "Inläst från cache. Tryck på uppdatera om du vill."
+
+#: src/tp_status/app.py:257
+msgid "Loading…"
+msgstr "Läser in..."
+
+#: src/tp_status/app.py:258
+msgid "Fetching data from translationproject.org…"
+msgstr "Hämtar data från translationproject.org…"
+
+#: src/tp_status/app.py:280
+#, python-format
+msgid "Updated at %s — %d packages"
+msgstr "Uppdaterad %s — %d paket"
+
+#: src/tp_status/app.py:286
+#, python-format
+msgid "Error: %s"
+msgstr "Fel: %s"
+
+#: src/tp_status/app.py:367
+msgid "translated"
+msgstr "översatta"
+
+#: src/tp_status/app.py:406 src/tp_status/app.py:439
+msgid "Export CSV"
+msgstr "Exportera CSV"
+
+#: src/tp_status/app.py:416
+#, python-format
+msgid "Exported to %s"
+msgstr "Exporterade till %s"
+
+#: src/tp_status/app.py:429
+msgid "View translation statistics from translationproject.org"
+msgstr "Visa översättningsstatistik från translationproject.org"
+
+#: src/tp_status/app.py:437
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/tp_status/app.py:438
+msgid "Search"
+msgstr "Sök"
+
+#: src/tp_status/app.py:440
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: src/tp_status/app.py:456
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: src/tp_status/app.py:460
+msgid ""
+"View and track translation progress for GNU and free software packages on translationproject.org.\n"
+"\n"
+"• Browse 148+ packages with translation stats\n"
+"• Filter by language, completion status\n"
+"• Color-coded completion percentages\n"
+"• Export data to CSV\n"
+"• Click any package to open on TP website"
+msgstr ""
+"Visa och följ översättningsprocessen för GNU och fria programvarupaket på translationproject.org.\n"
+"\n"
+"• Bläddra bland över 148 paket med översättningsstatistik\n"
+"• Filtrera efter språk och färdigställandestatus\n"
+"• Färgkodade procenttal för färdigställande\n"
+"• Exportera data till CSV\n"
+"• Klicka på valfritt paket för att öppna det på TP:s webbplats"
+
+#: src/tp_status/app.py:467
+msgid "Get Started"
+msgstr "Kom igång"
