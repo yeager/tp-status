@@ -1,25 +1,55 @@
-# TP Status
+# tp status [![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)](https://github.com/yeager/tp-status)
 
-View translation statistics from [translationproject.org](https://translationproject.org) for GNU and free software packages.
 
-Built with GTK4/Adwaita. Part of the [Danne L10n Suite](https://github.com/yeager/debian-repo).
+
+## Description
+
+tp status is a GTK4/Adwaita application 
+
+[Application description will be added based on individual repo functionality]
+
+## Features
+
+- Modern GTK4/Adwaita interface
+- [Feature list to be customized per repo]
+
+
 
 ## Installation
 
-### Debian/Ubuntu
+### APT Repository (Debian/Ubuntu)
+
 ```bash
+echo "deb https://yeager.github.io/debian-repo stable main" | sudo tee /etc/apt/sources.list.d/yeager-l10n.list
+sudo apt update
 sudo apt install tp-status
 ```
 
-### Fedora/RPM
+### DNF Repository (Fedora/RHEL)
+
 ```bash
+sudo dnf config-manager --add-repo https://yeager.github.io/rpm-repo/yeager-l10n.repo
 sudo dnf install tp-status
 ```
 
+### Building from Source
+
+```bash
+git clone https://github.com/yeager/tp-status.git
+cd tp-status
+pip install -e .
+```
+
+## Translation
+
+This application is managed on Transifex: https://app.transifex.com/danielnylander/tp-status/
+
+Available in 11 languages: Swedish, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Czech, Russian, and Chinese (Simplified).
+
 ## License
 
-GPL-3.0
+GPL-3.0-or-later
 
 ## Author
 
-Daniel Nylander — [danielnylander.se](https://danielnylander.se)
+Daniel Nylander (daniel@danielnylander.se)
